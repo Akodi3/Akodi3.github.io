@@ -17,7 +17,7 @@ ADDONTITLE = 'Akodi Wizard'
 BUILDERNAME = 'Akodi'
 EXCLUDES = [ADDON_ID]
 # Text File with build info in it.
-BUILDFILE = 'https://akodi3.github.io/akodi/wizard/akodi.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/Akodi3/Akodi3.github.io/main/akodi/wizard/index.html'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
