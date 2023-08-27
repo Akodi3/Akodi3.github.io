@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="akodi.repo" name="Akodi [COLOR orange]Repo[/COLOR]" version="2.0" provider-name="Akodi">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Akodi Repo">
+        <dir>
+			<info>https://www.akodi.xyz/_repo/addons.xml</info>
+			<checksum>https://www.akodi.xyz/_repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://www.akodi.xyz/_repo</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary>Akodi Repo</summary>
+   		<description lang="es">Repositorio Akodi para Kodi Matrix y Nexus</description>
+		<disclaimer>Repositorio Akodi para Kodi Matrix y Nexus</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
