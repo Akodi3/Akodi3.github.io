@@ -1,13 +1,13 @@
-<?xml version="2.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon 	id="akodi.repo" 
 		name="Akodi Build Repo" 
-		version="2.0" 
+		version="2.1" 
 		provider-name="Akodi">
 	<extension point="xbmc.addon.repository" name="Akodi: Repo">
-		<info compressed="false">https://www.akodi.xyz/_repo/addons.xml</info>
-		<checksum>https://www.akodi.xyz/_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://www.akodi.xyz/_repo/</datadir>
+		<info compressed="false">https://github.com/Akodi3/Akodi3.github.io/blob/main/akodi/_repo/addons.xml</info>
+		<checksum>https://github.com/Akodi3/Akodi3.github.io/blob/main/akodi/_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Akodi3/Akodi3.github.io/tree/main/akodi/_repo</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Akodi Build Repo</summary>
@@ -16,7 +16,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.akodi" name="Akodi Wizard" version="2.0" provider-name="Akodi">
+<addon id="plugin.program.akodi" name="Akodi Wizard" version="2.1" provider-name="Akodi">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="akodi.repo" name="[COLOR black]Akodi[/COLOR] Repo" version="2.0" provider-name="Akodi">
+<addon id="akodi.repo" name="[COLOR black]Akodi[/COLOR] Repo" version="2.1" provider-name="Akodi">
 <extension point="xbmc.addon.repository" name="Akodi Repo">
-<info compressed="false">https://www.akodi.xyz/_repo/addons.xml</info>
-<checksum>https://www.akodi.xyz/_repo/addons.xml.md5</checksum>
-<datadir zip="true">https://www.akodi.xyz/_repo/</datadir>
+<info compressed="false">https://github.com/Akodi3/Akodi3.github.io/blob/main/akodi/_repo/addons.xml</info>
+<checksum>https://github.com/Akodi3/Akodi3.github.io/blob/main/akodi/_repo/addons.xml.md5</checksum>
+<datadir zip="true">https://github.com/Akodi3/Akodi3.github.io/tree/main/akodi/_repo</datadir>
 </extension>
 <extension point="xbmc.addon.metadata">
 <summary>Akodi Repo</summary>
