@@ -5,8 +5,8 @@
     </requires>
     <extension point="xbmc.addon.repository" name="Akodi Repo">
         <dir>
-			<info>https://www.akodi.xyz/_repo/addons.xml</info>
-			<checksum>https://www.akodi.xyz/_repo/addons.xml.md5</checksum>
+			<info>https://github.com/Akodi3/Akodi3.github.io/tree/main/Akodi/_repo/addons.xml</info>
+			<checksum>https://github.com/Akodi3/Akodi3.github.io/tree/main/Akodi/_repo/addons.xml.md5</checksum>
 			<datadir zip="true">https://akodi3.github.io/</datadir>
         </dir>
     </extension>
